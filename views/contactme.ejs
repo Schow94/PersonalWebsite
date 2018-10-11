@@ -1,33 +1,70 @@
 <% include ./partials/header %>
 
-<div>
-    <div class="ui main text container">
-        <div class="ui top attached segmnent">
-            <h1>About Me</h1>
-            <img src="https://media.licdn.com/dms/image/C5603AQFACqHHdzrNuw/profile-displayphoto-shrink_200_200/0?e=1542844800&v=beta&t=Gx8GyOXJ3u4EPZ4IVLy_DqAjhovm9bp-bnFpIuCh7DI">
-        </div>
-        
-    </div>    
-
-    <div class="ui text container">
-        <p>Born and raised in LA and recently relocated to the Bay Area for work. I curerntly work in biotech, but am learning Web Development in my free time. When I'm not learning to code I can be found at the gym, outdoors, exploring the city, playing sports, or catching up with friends over a beer.</p>
+<div class="container">
+    <div class="container">
+        <h1>About Me</h1>
+        <!--Currently hidden ^^ -->
     </div>
-
-    <div class="ui main text container">
-        <h1>Let's get in touch!</h1>
-        <form>
-            First Name: <br><input type="text" name="firstname" value=""></input></br>
-            Last Name: <br><input type="text" name="lastname" value=""></input></br>
-            Email: <br><input type="text" name="email" value=""></input></br>
-            <input type="submit">
-        </form>
+    <div class="row">
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-2">
+            <div class="thumbnail">
+                <!-- Add space btwn img and nav bar -->
+                <!-- Less space btwn img and <p> -->
+                <img class="img-responsive" src="https://media.licdn.com/dms/image/C5603AQFACqHHdzrNuw/profile-displayphoto-shrink_200_200/0?e=1542844800&v=beta&t=Gx8GyOXJ3u4EPZ4IVLy_DqAjhovm9bp-bnFpIuCh7DI">
+            </div>
+        </div>
+        <div class="col-md-5">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6">
+            <div class="ui main text container">
+                <!-- Make <p> larger(Could make custom <p> class in stylesheet-->
+                <div>
+                    <p>Born and raised in LA and recently relocated to the Bay Area for work. I currently work in biotech, but am learning Web Development in my free time. When I'm not learning to code I can be found at the gym, outdoors, exploring the city, playing sports, or catching up with friends over a beer.</p>
+                </div>            
+            </div>
+        </div>
+        <div class="col-md-3">
+        </div>
     </div>
     
-        <div class="container">
-                <i class ="facebook icon"></i>
-                <i class ="instagram icon"></i>
-                <i class="LinkedIn icon"></i>
+    <div class="row">
+        
+        <div class="col-md-12">
+            
+            <!-- Add space btwn lets get in touch and <p> -->
+            <h1 style="text-align: center">Let's get in touch!</h1>
+            <div style="width: 30%; margin: 20px auto;">
+                <form>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="firstname" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="lastname" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-lg btn-primary btn-default btn-block">Submit</button>
+                    </div>
+                </form>
+    <!-- Add space btwn submit btn and icons -->
+            <!-- Change icon colors to black?? -->
+                <div class="container">
+                    <a href="https://www.facebook.com/Schow94"><i class ="facebook icon"></i></a>
+                    <a href="https://www.instagram.com/thech0w/"><i class ="instagram icon"></i></a>
+                    <a href="https://www.linkedin.com/in/stephen-chow-938b3b11b"><i class="LinkedIn icon"></i></a>
+                    <h4>scphoto94@gmail.com</h4>
+                </div>
+            </div>
         </div>
+    </div>
 </div>
 
 

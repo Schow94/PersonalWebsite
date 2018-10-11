@@ -9,3 +9,11 @@ i.icon{
 div.a {
     text-indent: 3em;
 }
+
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail{
+    padding: 0;
+}
