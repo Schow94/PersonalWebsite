@@ -1,43 +1,117 @@
 <% include ./partials/header %>
 
-<a href="https://www.instagram.com/thech0w/"></a>
-
 <div class="container">
     <!--Not sure why jumbotron is here. It looks nice, but kinda large... Resize it -->
      <header class="jumbotron">
         <div class="container">
-            <h1>Photography</h1>
-            <i class ="instagram icon"></i>
-            <p>****Disclaimer photos not taken by me. My personal photos coming soon!****</p>
+            <h1><a href="https://www.instagram.com/thech0w/"><i class ="instagram icon"></i></a>Photography</h1>
+            
+            <p>Some photos taken and curated by me!</p>
         </div>
     </header>
 </div>
 
-<!-- REFER TO MAIN.CSS IN YELPCAMP TO REMOVE PADDING ON THUMBNAIL -->
+<!-- ADD ARRAY/OBJECT W/PHOTOS TO APP.JS AND USE FOREACH() LOOP IN EJS TO LOOP THROUGH PHOTOS -->
+<!-- ALSO ADD SHOW PAGE FOR EACH INDIVIDUAL IMAGE SO CAN SEE LARGER IMAGE -->
+
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="thumbnail">-->
+<!--            <div class="col-md-6">-->
+<!--                <img class="responsive" src="/pictures/image4.jpg">-->
+<!--            </div>-->
+<!--            <div class="col-md-6">-->
+<!--                <img class="responsive" src="/pictures/image5.jpg">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--        <div class="thumbnail">-->
+<!--            <div class="col-md-6">-->
+<!--                <img class="responsive" src="/pictures/image6.jpg">-->
+<!--            </div>-->
+<!--            <div class="col-md-6">-->
+<!--                <img class="responsive" src="/pictures/image7.jpg">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
 <div class="container">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="thumbnail">
-                <img class="img-responsive" class="img-responsive" src="https://images.unsplash.com/photo-1539067143050-ef15d2e49536?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4cd271efcac5c7cd42da216c33063dc4&auto=format&fit=crop&w=800&q=60">                
+                <img class="img-responsive" src="/pictures/image10.jpg">                
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="thumbnail">
-                <img src="https://images.unsplash.com/photo-1539023032992-ae77eacac916?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=901c5c951abcee02a30229fda0248880&auto=format&fit=crop&w=800&q=60">                
+                <img src="/pictures/image11.jpg">                
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="thumbnail">
-                <img src="https://images.unsplash.com/photo-1539075563500-5a6104cea788?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f514b8f5245377b60bc87915cc2feda&auto=format&fit=crop&w=800&q=60">                
+                <img src="/pictures/image15.jpg">                
             </div>
         </div>
-        <div class="col-md-3">
+    </div>
+        
+    <div class="row">
+        <div class="col-md-4">
             <div class="thumbnail">
-                <img src="https://images.unsplash.com/photo-1539035104074-dee66086b5e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5729f18a6a6b8ab1b2e2108964227ae5&auto=format&fit=crop&w=800&q=60">
+                
+ <!--Images are static so when using express, need to go in public directory which is static -->
+                <img src="/pictures/image7.jpg">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="/pictures/image8.jpg">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="/pictures/image9.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="/pictures/image16.jpg">                
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="/pictures/image13.jpg">                
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="/pictures/image14.jpg">                
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="/pictures/image17.jpg">                
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="/pictures/image18.jpg">                
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="/pictures/image4.jpg">                
             </div>
         </div>
     </div>
 </div>
+
+
 
 
 

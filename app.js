@@ -34,6 +34,10 @@ app.get("/photography", function(req, res){
     res.render("photography");
 });
 
+// CODING
+app.get("/coding", function(req, res){
+    res.render("coding");
+});
 
 //CONTACT ME
 app.get("/contactme", function(req, res){
