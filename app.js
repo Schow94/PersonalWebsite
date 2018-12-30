@@ -15,34 +15,34 @@ app.get("/", function(req, res){
    res.render("index");
 });
 
-//EDUCATION
-app.get("/education", function(req, res){
-    res.render("education");
-});
-//WORK
-app.get("/work", function(req, res){
-    res.render("work");
-});
+// //EDUCATION
+// app.get("/education", function(req, res){
+//     res.render("education");
+// });
+// //WORK
+// app.get("/work", function(req, res){
+//     res.render("work");
+// });
 
-// PROJECTS
-app.get("/projects", function(req, res){
-    res.render("projects");
-});
+// // PROJECTS
+// app.get("/projects", function(req, res){
+//     res.render("projects");
+// });
 
-//PHOTOGRAPHY
-app.get("/photography", function(req, res){
-    res.render("photography");
-});
+// //PHOTOGRAPHY
+// app.get("/photography", function(req, res){
+//     res.render("photography");
+// });
 
-// CODING
-app.get("/coding", function(req, res){
-    res.render("coding");
-});
+// // CODING
+// app.get("/coding", function(req, res){
+//     res.render("coding");
+// });
 
-//CONTACT ME
-app.get("/contactme", function(req, res){
-    res.render("contactme");
-});
+// //CONTACT ME
+// app.get("/contactme", function(req, res){
+//     res.render("contactme");
+// });
 
 
 
